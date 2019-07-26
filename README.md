@@ -17,7 +17,6 @@ to be able to pass unit-test for the Exercism challenge.
 2) execute API calls using tool of your choice (Postman, curl, etc). Examples with curl from another terminal window:
 - curl -XGET localhost:8080/users -d '{"users": ["Adam"]}'
 - curl -XPOST localhost:8080/add -d '{"user": "Roman"}'
-- curl -XPOST localhost:8080/iou -d '{"lender": "Roman", "borrower": "Chuck", "balance": 15}'    
+- curl -XPOST localhost:8080/iou -d '{"lender": "Roman", "borrower": "Chuck", "amount": 15}'    
 
 Thanks to @joncardasis and his example of the web server here https://gist.github.com/joncardasis/cc67cfb160fa61a0457d6951eff2aeae 
-that I used  

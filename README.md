@@ -9,12 +9,13 @@ As an additional improvement in future, it might be cool to use a real database 
 Also it includes a sample REST API from REST API Exercism task here https://exercism.io/my/tracks/python
 
 The code is not complete and requires major refactoring, but it does the job. It only covers the bare minimum
-to be able to pass unit-test for the Exercism challenge.
+to be able to pass unit tests for the Exercism challenge.
 
 ## Usage and supported API calls:
 
 1) in terminal window run python main.py 
-2) execute API calls using tool of your choice (Postman, curl, etc). Examples with curl from another terminal window:
+2) running unit tests: pytest rest_api_test.py
+3) execute API calls using tool of your choice (Postman, curl, etc). Examples with curl from another terminal window:
 - curl -XGET localhost:8080/users -d '{"users": ["Adam"]}'
 - curl -XPOST localhost:8080/add -d '{"user": "Roman"}'
 - curl -XPOST localhost:8080/iou -d '{"lender": "Roman", "borrower": "Chuck", "amount": 15}'    
